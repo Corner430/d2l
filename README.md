@@ -52,7 +52,9 @@
         - 画图函数
     - [自动求导](1.basic_knowledge/5.自动求导.ipynb)
         - 对微积分知识的应用
-    - [查阅文档](1.basic_knowledge/6.查阅文档.ipynb)
+    - [概率论](1.basic_knowledge/6.概率论.ipynb)
+        - 概率的反直觉
+    - [查阅文档](1.basic_knowledge/7.查阅文档.ipynb)
         - 查找模块中所有的函数和类
         - 查找特定函数和类的用法
 2. [Linear regression](2.Linear_regression/index.md)
@@ -87,7 +89,7 @@
 6. [Weight decay](6.Weight_decay/index.md)
     - 权重衰退所能带来的效果很有限
     - $L_1$范数和$L_2$范数的区别
-7. [dropout](./7.dropout/index.md)
+7. [dropout](7.dropout/index.md)
     - **当面对更多的特征而样本不足时，线性模型往往会过拟合**
     - **无偏**的加入噪声
     - 一般取值为**0.1、0.5、0.9**
@@ -99,3 +101,11 @@
 8. [backprop](8.backprop.ipynb/index.md)
     - 前向传播、方向传播和计算图
     - 分布式训练
+9. [numerical stability and init](9.numerical_stability_and_init/index.md)
+    - 梯度消失和梯度爆炸
+    - 对称性问题
+    - 如何让训练更加稳定
+    - Xavier初始化
+    - 从泰勒的角度去理解激活函数
+    - **合理的权重初始值和激活函数的选取可以提升数值稳定性**
+    - `nan`、`inf`
