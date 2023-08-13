@@ -28,7 +28,7 @@
 - 社区讨论：见纸书各节二维码
 
 -------------------------------------
-#### 搭配读物
+## 搭配读物
 - [pytorch-handbook](https://github.com/zergtant/pytorch-handbook)
 - [machine_learning_beginner 中的 python 基础](https://github.com/fengdu78/machine_learning_beginner)
   - 1.[两天入门Python(目录名：python-start)](https://github.com/fengdu78/machine_learning_beginner/blob/master/python-start)
@@ -37,7 +37,6 @@
   - 4.[两天学会pandas(目录名：pandas)](https://github.com/fengdu78/machine_learning_beginner/blob/master/pandas)
 
 ----------------------------------------
-
 ## 目录
 1. [basic knowledge](1.basic_knowledge/index.md)
     - [环境搭建](1.basic_knowledge/1.环境搭建.ipynb)
@@ -109,3 +108,12 @@
     - 从泰勒的角度去理解激活函数
     - **合理的权重初始值和激活函数的选取可以提升数值稳定性**
     - `nan`、`inf`
+10. [enviroment and distribution shift](10.environment_and_distribution_shift/index.md)
+    - 环境和分布偏移以及纠正方式
+11. [Kaggle实战之房价预测](11.Kaggle_predict_house_price/index.md)
+12. [deep learning computation](12.deep_learning_computation/index.md)
+    - [模型构造](1.模型构造.ipynb)
+    - [参数管理](2.参数管理.ipynb)
+    - [自定义层](3.自定义层.ipynb)
+    - [读写文件](4.读写文件.ipynb)
+13. [GPU](13.GPU/index.md)
