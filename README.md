@@ -3,21 +3,13 @@
 > 课程学习需要资料汇总
 
 - [动手学深度学习（Dive into Deep Learning，D2L.ai）Github](https://github.com/d2l-ai/d2l-zh)
-
 - [D2L电子书](https://zh.d2l.ai/)
-
 - [D2L电子书英文版](https://d2l.ai/)：英文版含有更多的内容
-
 - [D2L电子书英文版PDF](https://d2l.ai/d2l-en.pdf)
-
 - [基础数学知识](http://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/index.html)
-
 - [讨论区](https://discuss.d2l.ai/)
-
 - [讨论区中文版](https://discuss.d2l.ai/c/16)
-
 - [Distill](https://distill.pub/)
-
 - [Python教程](http://learnpython.org/)<!--more-->
 
 ----------------------------------
@@ -73,6 +65,8 @@
 2. [Linear regression](2.Linear_regression/index.md)
     - **如何定义一个`data_iter`，用于生成`batch_size`大小的数据**
     - **如何使用`torch.utils.data`中的`TensorDataset`和`DataLoader`来读取数据**
+    - 选择合适的`batch_size`
+    - **样本大小不是批量大小的整数倍怎么办？**
 3. [Softmax regression](3.Softmax_regression/index.md)
     - Softmax回归理论基础
     - 图像分类数据集（Fashion-MNIST）
@@ -92,3 +86,8 @@
       - 为什么玩深度学习，而不是广度学习？
       - 相对而言，激活函数并不是很重要
       - 选择2的幂次作为batch_size的原因
+5. [Model selection Overfitting and underfitting](5.Model_selection_overfitting_and_underfitting/index.md)
+    - K折交叉验证
+    - VC维
+    - 多项式拟合
+    - 训练集、验证集和测试集
