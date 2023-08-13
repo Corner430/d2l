@@ -1,5 +1,7 @@
 # d2l 笔记
 
+> **由于Github数据库抽风的问题，如果点链接出现了`not found`。请先点开`readme`，再点链接**
+
 > 课程学习需要资料汇总
 
 - [动手学深度学习（Dive into Deep Learning，D2L.ai）Github](https://github.com/d2l-ai/d2l-zh)
@@ -85,3 +87,12 @@
 6. [Weight decay](6.Weight_decay/index.md)
     - 权重衰退所能带来的效果很有限
     - $L_1$范数和$L_2$范数的区别
+7. [dropout](7.dropout/index.md)
+    - **当面对更多的特征而样本不足时，线性模型往往会过拟合**
+    - **无偏**的加入噪声
+    - 一般取值为**0.1、0.5、0.9**
+    - **可以将模型设置的复杂一些，之后使用dropout**
+    - n个数字相加，加的顺序不一样，结果会不一样
+    - dropout和regularization可以**同时使用**
+    - 随机种子
+    - **dropout可能会导致参数收敛变慢**
