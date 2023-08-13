@@ -2,28 +2,45 @@
 
 > 课程学习需要资料汇总
 
-[动手学深度学习（Dive into Deep Learning，D2L.ai）Github](https://github.com/d2l-ai/d2l-zh)
-[D2L电子书](https://zh.d2l.ai/)
-[D2L电子书英文版](https://d2l.ai/)：英文版含有更多的内容
-[D2L电子书英文版PDF](https://d2l.ai/d2l-en.pdf)
-[基础数学知识](http://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/index.html)
-[讨论区](https://discuss.d2l.ai/)
-[讨论区中文版](https://discuss.d2l.ai/c/16)
-[Distill](https://distill.pub/)
-[Python教程](http://learnpython.org/)<!--more-->
+- [动手学深度学习（Dive into Deep Learning，D2L.ai）Github](https://github.com/d2l-ai/d2l-zh)
+
+- [D2L电子书](https://zh.d2l.ai/)
+
+- [D2L电子书英文版](https://d2l.ai/)：英文版含有更多的内容
+
+- [D2L电子书英文版PDF](https://d2l.ai/d2l-en.pdf)
+
+- [基础数学知识](http://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/index.html)
+
+- [讨论区](https://discuss.d2l.ai/)
+
+- [讨论区中文版](https://discuss.d2l.ai/c/16)
+
+- [Distill](https://distill.pub/)
+
+- [Python教程](http://learnpython.org/)<!--more-->
 
 ----------------------------------
-《动手学深度学习（PyTorch版）》配套资源获取链接：
-[本书配套网站主页](https://d2l.ai/)
-[课程主页](https://courses.d2l.ai/zh-v2)
-[教材](https://zh-v2.d2l.ai/)
-[Pytroch论坛](https://discuss.pytorch.org/)
-[GitHub项目地址](https://github.com/d2l-ai/d2l-zh)
-[Jupyter记事本下载](https://zh-v2.d2l.ai/d2l-zh.zip)
-[中文版课件](https://github.com/d2l-ai/berkeley-stat-157/tree/master/slides-zh)
-[视频课程及课程PPT](https://courses.d2l.ai/zh-v2/)
-习题：见纸书
-社区讨论：见纸书各节二维码
+> 《动手学深度学习（PyTorch版）》配套资源获取链接：
+- [本书配套网站主页](https://d2l.ai/)
+
+- [课程主页](https://courses.d2l.ai/zh-v2)
+
+- [教材](https://zh-v2.d2l.ai/)
+
+- [Pytroch论坛](https://discuss.pytorch.org/)
+
+- [GitHub项目地址](https://github.com/d2l-ai/d2l-zh)
+
+- [Jupyter记事本下载](https://zh-v2.d2l.ai/d2l-zh.zip)
+
+- [中文版课件](https://github.com/d2l-ai/berkeley-stat-157/tree/master/slides-zh)
+
+- [视频课程及课程PPT](https://courses.d2l.ai/zh-v2/)
+
+- 习题：见纸书
+
+- 社区讨论：见纸书各节二维码
 
 -------------------------------------
 #### 搭配读物
@@ -60,3 +77,18 @@
     - Softmax回归理论基础
     - 图像分类数据集（Fashion-MNIST）
     - 解决softmax中的数值上下溢的问题
+4. [Multilayer perceptron](4.multilayer_perceptron/index.md)
+    - 感知机理论基础
+      - 二分类
+      - 收敛定理
+    - 多层感知机理论知识
+      - 解决异或问题
+      - 各种激活函数
+      - 通用近似定理
+    - 多层感知机的从零开始实现
+      - `nn.Parameter()`、`@`
+    - 多层感知机的简洁实现]
+    - QA
+      - 为什么玩深度学习，而不是广度学习？
+      - 相对而言，激活函数并不是很重要
+      - 选择2的幂次作为batch_size的原因
