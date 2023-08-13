@@ -87,7 +87,7 @@
 6. [Weight decay](6.Weight_decay/index.md)
     - 权重衰退所能带来的效果很有限
     - $L_1$范数和$L_2$范数的区别
-7. [dropout](7.dropout/index.md)
+7. [dropout](./7.dropout/index.md)
     - **当面对更多的特征而样本不足时，线性模型往往会过拟合**
     - **无偏**的加入噪声
     - 一般取值为**0.1、0.5、0.9**
@@ -96,3 +96,6 @@
     - dropout和regularization可以**同时使用**
     - 随机种子
     - **dropout可能会导致参数收敛变慢**
+8. [backprop](8.backprop.ipynb/index.md)
+    - 前向传播、方向传播和计算图
+    - 分布式训练

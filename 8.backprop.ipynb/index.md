@@ -1,0 +1,3 @@
+- [backprop](backprop.ipynb)
+    - 前向传播、方向传播和计算图
+    - 分布式训练
