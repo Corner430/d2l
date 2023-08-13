@@ -15,23 +15,14 @@
 ----------------------------------
 > 《动手学深度学习（PyTorch版）》配套资源获取链接：
 - [本书配套网站主页](https://d2l.ai/)
-
 - [课程主页](https://courses.d2l.ai/zh-v2)
-
 - [教材](https://zh-v2.d2l.ai/)
-
 - [Pytroch论坛](https://discuss.pytorch.org/)
-
 - [GitHub项目地址](https://github.com/d2l-ai/d2l-zh)
-
 - [Jupyter记事本下载](https://zh-v2.d2l.ai/d2l-zh.zip)
-
 - [中文版课件](https://github.com/d2l-ai/berkeley-stat-157/tree/master/slides-zh)
-
 - [视频课程及课程PPT](https://courses.d2l.ai/zh-v2/)
-
 - 习题：见纸书
-
 - 社区讨论：见纸书各节二维码
 
 -------------------------------------
@@ -91,3 +82,6 @@
     - VC维
     - 多项式拟合
     - 训练集、验证集和测试集
+6. [Weight decay](6.Weight_decay/index.md)
+    - 权重衰退所能带来的效果很有限
+    - $L_1$范数和$L_2$范数的区别
