@@ -30,6 +30,7 @@
 -------------------------------------
 ## 搭配读物
 - [pytorch-handbook](https://github.com/zergtant/pytorch-handbook)
+- [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
 - [machine_learning_beginner 中的 python 基础](https://github.com/fengdu78/machine_learning_beginner)
   - 1.[两天入门Python(目录名：python-start)](https://github.com/fengdu78/machine_learning_beginner/blob/master/python-start)
   - 2.[适合初学者快速入门的Numpy实战全集(目录名：numpy)](https://github.com/fengdu78/machine_learning_beginner/blob/master/numpy)
@@ -111,6 +112,7 @@
 10. [enviroment and distribution shift](10.environment_and_distribution_shift/index.md)
     - 环境和分布偏移以及纠正方式
 11. [Kaggle实战之房价预测](11.Kaggle_predict_house_price/index.md)
+    - [autogluon](https://auto.gluon.ai/stable/index.html)也可以取得很好的效果
 12. [deep learning computation](12.deep_learning_computation/index.md)
     - [模型构造](1.模型构造.ipynb)
     - [参数管理](2.参数管理.ipynb)
@@ -122,3 +124,9 @@
     - 交叉相关和卷积
     - **卷积层就是一个特殊的全连接层**
     - 训练抖动
+    - **填充**在输入周围添加额外的行/列，**来控制输出形状的减少量**
+    - **步幅**是在每次滑动核窗口时的行/列的步长，**可以成倍的减少输出形状**
+    - kernel_size、padding 和 strides 怎么设置
+    - kernel_size一般选奇数
+    - **NAS 可以让超参数也一起训练**
+    - **机器学习本质上就是在做压缩**
