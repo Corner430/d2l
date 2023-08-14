@@ -112,7 +112,7 @@
 10. [enviroment and distribution shift](10.environment_and_distribution_shift/index.md)
     - 环境和分布偏移以及纠正方式
 11. [Kaggle实战之房价预测](11.Kaggle_predict_house_price/index.md)
-    - [autogluon](https://auto.gluon.ai/stable/index.html)也可以取得很好的效果
+    - **[autogluon](https://auto.gluon.ai/stable/index.html)也可以取得很好的效果**
 12. [deep learning computation](12.deep_learning_computation/index.md)
     - [模型构造](1.模型构造.ipynb)
     - [参数管理](2.参数管理.ipynb)
