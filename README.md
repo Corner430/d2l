@@ -145,4 +145,6 @@
     - 卷积可视化：[CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 16. [Convolutional Modern](16.Convolutional-Modern/index.md)
     - AlexNet
-    - VGG
+    - VGG：**更大更深的AlexNet（重复的VGG块）**
+    - 深层且窄的卷积（即$3 \times 3$）比较浅层且宽的卷积更有效
+    - 与AlexNet相比，**VGG的计算要慢得多**，而且它还需要更多的显存
