@@ -145,3 +145,4 @@
     - 卷积可视化：[CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 16. [Convolutional Modern](16.Convolutional-Modern/index.md)
     - AlexNet
+    - VGG

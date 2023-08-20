@@ -1,3 +1,6 @@
 1. [AlexNet](1.AlexNet.ipynb)
 2. [代码](2.代码.ipynb)
-3. (QA))[3.QA.ipynb]
+3. [QA](3.QA.ipynb)
+4. [VGG](4.VGG.ipynb)
+5. [代码](5.代码.ipynb)
+6. [QA](6.QA.ipynb)
