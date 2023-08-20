@@ -140,6 +140,6 @@
     - 卷积->池化
     - 池化层为什么用的越来越少了？
     - 感受野
-15. [Classical convolution neural network LeNet](15.Classical-convolution-neural-network_LeNet/index.md)
+15. [Classical convolution neural network LeNet](15.LeNet/index.md)
     - `__class__.__name__`
     - 卷积可视化：[CNN Explainer](https://poloclub.github.io/cnn-explainer/)
