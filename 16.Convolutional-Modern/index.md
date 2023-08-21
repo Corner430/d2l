@@ -17,3 +17,6 @@
 8. [代码](8.代码.ipynb)
 9. [QA](9.QA.ipynb)
     - 收敛变慢
+10. [GoogLeNet](10.GoogLeNet.ipynb)
+11. [代码](11.代码.ipynb)
+12. [QA](12.QA.ipynb)
