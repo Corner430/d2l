@@ -18,5 +18,7 @@
 9. [QA](9.QA.ipynb)
     - 收敛变慢
 10. [GoogLeNet](10.GoogLeNet.ipynb)
+    - GoogLeNet 将各种卷积超参数都用上了，是一个**含并行连结的网络**
+    - 它的一个**主要优点是模型参数小，计算复杂度低**
 11. [代码](11.代码.ipynb)
 12. [QA](12.QA.ipynb)

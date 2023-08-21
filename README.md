@@ -38,6 +38,8 @@
   - 4.[两天学会pandas(目录名：pandas)](https://github.com/fengdu78/machine_learning_beginner/blob/master/pandas)
 
 ----------------------------------------
+[GluonCV Model Zoo](https://cv.gluon.ai/model_zoo/classification.html)
+
 ## 目录
 1. [basic knowledge](1.basic_knowledge/index.md)
     - [环境搭建](1.basic_knowledge/1.环境搭建.ipynb)
@@ -154,3 +156,4 @@
         - 最后使用**全局平均池化层**得到输出，**其输入通道数是类别数**，不容易过拟合，更少的参数个数
     - NiN 收敛变慢
     - GoogLeNet 将各种卷积超参数都用上了，是一个**含并行连结的网络**
+    - GoogLeNet 的一个**主要优点是模型参数小，计算复杂度低**
