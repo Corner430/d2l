@@ -41,3 +41,4 @@
     - **学习率调度**
     - 所谓残差
 19. [ResNet为什么能训练出1000层的模型？](19.ResNet为什么能训练出1000层的模型.ipynb)
+20. [Densenet](20.densenet.ipynb)
