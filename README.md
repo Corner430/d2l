@@ -116,10 +116,10 @@
 11. [Kaggle实战之房价预测](11.Kaggle_predict_house_price/index.md)
     - **[autogluon](https://auto.gluon.ai/stable/index.html)也可以取得很好的效果**
 12. [deep learning computation](12.deep_learning_computation/index.md)
-    - [模型构造](1.模型构造.ipynb)
-    - [参数管理](2.参数管理.ipynb)
-    - [自定义层](3.自定义层.ipynb)
-    - [读写文件](4.读写文件.ipynb)
+    - 模型构造
+    - 参数管理
+    - 自定义层
+    - 读写文件
 13. [GPU](13.GPU/index.md)
 14. [CNN](14.CNN/index.md)
     - **从全连接层到卷积层**
@@ -173,5 +173,7 @@
 17. [Hardware](17.hardware/index.md)
     - 如何提升 GPU 和 CPU 的利用率
     - 不要频繁在 CPU 和 GPU 之间传输数据
-    - 80% 的论文无法复现
+    - **80% 的论文无法复现**
     - resnet不可以用在文本上
+    - Google TPU
+    - Systolic Array
