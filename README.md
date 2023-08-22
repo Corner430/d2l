@@ -166,3 +166,4 @@
     - **指数加权平均**
     - **标准化（Normalization）、归一化（Scaling）和 批量归一化（Batch Normalization）的区别**
     - **批量归一化中 $\gamma$ 和 $\beta$ 的作用**
+    - **ResNet 解决了模型偏差的问题，使用了模型（函数）嵌套。也就是扩大了函数类。**
