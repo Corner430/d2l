@@ -171,3 +171,5 @@
     - 所谓残差
     - ResNet为什么能训练出1000层的模型？
 17. [Hardware](17.hardware/index.md)
+    - 如何提升 GPU 和 CPU 的利用率
+    - 不要频繁在 CPU 和 GPU 之间传输数据
