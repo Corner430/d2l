@@ -1,0 +1,5 @@
+1. [CPU 和 GPU](1.CPU和GPU.ipynb)
+2. [TPU 和 其他](2.TPU和其他.ipynb)
+3. [单机多卡并行](3.单机多卡并行.ipynb)
+4. [多 GPU 训练实现](4.多GPU训练实现.ipynb)
+5. [分布式训练](5.分布式训练.ipynb)

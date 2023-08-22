@@ -170,3 +170,4 @@
     - **学习率调度**
     - 所谓残差
     - ResNet为什么能训练出1000层的模型？
+17. [Hardware](17.hardware/index.md)
