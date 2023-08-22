@@ -164,3 +164,5 @@
     - **可以加速收敛速度，但一般不改变模型精度**
     - 方差的计算
     - **指数加权平均**
+    - **标准化（Normalization）、归一化（Scaling）和 批量归一化（Batch Normalization）的区别**
+    - **批量归一化中 $\gamma$ 和 $\beta$ 的作用**
