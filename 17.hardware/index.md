@@ -11,5 +11,6 @@
     - GPU 和 网络要互相 match
     - **Transformer 非常适合 TPU，都是 Google 家的**
 3. [单机多卡并行](3.单机多卡并行.ipynb)
+    - 数据并行和模型并行
 4. [多 GPU 训练实现](4.多GPU训练实现.ipynb)
 5. [分布式训练](5.分布式训练.ipynb)

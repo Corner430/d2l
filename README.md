@@ -181,3 +181,4 @@
     - 做芯片的风险
     - GPU 和 网络要互相 match
     - **Transformer 非常适合 TPU，都是 Google 家的**
+    - 数据并行和模型并行
