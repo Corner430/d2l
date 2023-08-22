@@ -177,3 +177,7 @@
     - resnet不可以用在文本上
     - Google TPU
     - Systolic Array
+    - 功耗不是问题，电厂也不缺电
+    - 做芯片的风险
+    - GPU 和 网络要互相 match
+    - **Transformer 非常适合 TPU，都是 Google 家的**
