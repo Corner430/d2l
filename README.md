@@ -173,3 +173,5 @@
 17. [Hardware](17.hardware/index.md)
     - 如何提升 GPU 和 CPU 的利用率
     - 不要频繁在 CPU 和 GPU 之间传输数据
+    - 80% 的论文无法复现
+    - resnet不可以用在文本上
