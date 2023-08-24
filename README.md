@@ -182,3 +182,5 @@
     - GPU 和 网络要互相 match
     - **Transformer 非常适合 TPU，都是 Google 家的**
     - 数据并行和模型并行
+    - 数据并行时，每个GPU会得到所有的参数
+    - batch_size 通常不要大于 10 x class_num
