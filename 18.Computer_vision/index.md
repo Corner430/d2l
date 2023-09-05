@@ -6,3 +6,4 @@
     - **图像增强之后，可以输出看一眼**
     - **图像增强之后一般不会改变分布**
     - mix-up增广
+2. [fine-tuning](2.fine_tuning.ipynb)
