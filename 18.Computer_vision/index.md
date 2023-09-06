@@ -21,4 +21,9 @@
     - 迁移学习将从源数据集中学习的知识迁移到目标数据集，**微调是迁移学习的常见技巧**
 3. [Kaggle leaf](3.Kaggle_leaf.ipynb)
 4. [Kaggle Cifar-10](4.Kaggle_Cifar_10.ipynb)
+    - 不同的类别，放在不同的文件夹中
+    - `torch.optim.lr_scheduler.StepLR()`，每隔一定的 epoch，学习率乘以一个系数
+    - `drop_last=True`，如果最后一个 batch 的样本数不足 batch_size，就丢弃
+    - `momentum`
+    - 常见的 `scheduler`
 5. [Kaggle ImageNet dog classification](5.Kaggle_ImageNet_dog.ipynb)
