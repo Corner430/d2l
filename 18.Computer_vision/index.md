@@ -27,3 +27,4 @@
     - `momentum`
     - 常见的 `scheduler`
 5. [Kaggle ImageNet dog classification](5.Kaggle_ImageNet_dog.ipynb)
+    - `scale` 和 `ratio` 的作用是什么？

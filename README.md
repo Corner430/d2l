@@ -228,3 +228,4 @@
     - `drop_last=True`，如果最后一个 batch 的样本数不足 batch_size，就丢弃
     - `momentum`
     - 常见的 `scheduler`
+    - `scale` 和 `ratio` 的作用是什么？
