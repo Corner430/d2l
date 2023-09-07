@@ -28,3 +28,5 @@
     - 常见的 `scheduler`
 5. [Kaggle ImageNet dog classification](5.Kaggle_ImageNet_dog.ipynb)
     - `scale` 和 `ratio` 的作用是什么？
+6. [Bound box](6.bound_box.ipynb)
+7. [Anchor](7.anchor.ipynb)
