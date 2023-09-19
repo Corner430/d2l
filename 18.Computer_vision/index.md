@@ -30,3 +30,10 @@
     - `scale` 和 `ratio` 的作用是什么？
 6. [Bound box](6.bound_box.ipynb)
 7. [Anchor](7.anchor.ipynb)
+    - 锚框生成的细节
+    - 交并比（IoU）
+    - 每个锚框的类别（class）和偏移量（offset）
+    - **将真实边界框分配给锚框**
+8. [Object Detection Dataset](8.object-detection-dataset.ipynb)
+    - 目标检测的 label 不太一样
+    - 小批量计算虽然高效，但它要求每张图像含有相同数量的边界框，以便放在同一个批量中。
