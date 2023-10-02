@@ -51,6 +51,18 @@
     - **焦点损失：增大$\gamma$可以有效地减少正类预测概率较大时（例如$p_j > 0.5$）的相对损失，因此训练可以更集中在那些错误分类的困难示例上。**
 11. [RCNN](11.rcnn.ipynb)
     - RCNN, Fast RCNN, Faster RCNN, Mask RCNN
+    - RCNN
+        - 使用启发式搜索算法来选择锚框
+        - 使用预训练模型来对**每个锚框**抽取特征
+        - 训练一个 SVM 来对类别分类
+        - 训练一个线性回归模型来预测边缘框偏移
+    - Fast RCNN
+        - **R-CNN的主要性能瓶颈在于，对每个提议区域，卷积神经网络的前向传播是独立的，而没有共享计算。**
+        - 由于这些区域**通常有重叠**，独立的特征抽取会导致重复的计算。
+        - **Fast R-CNN 对R-CNN的主要改进之一，是仅在整张图象上执行卷积神经网络的前向传播。**
+    - Faster RCNN
+      - 使用一个区域提议网络来替代启发式搜索来获得更好的锚框
+    - * Mask R-CNN在Faster R-CNN的基础上引入了一个全卷积网络，从而**借助目标的像素级位置进一步提升目标检测的精度。**
 12. [YOLO](12.YOLO.ipynb)
 13. [Semantic Segmentation and Dataset](13.semantic-segmentation-and-dataset.ipynb)
 14. [Transposed Conv](14.transposed-conv.ipynb)
