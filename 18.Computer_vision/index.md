@@ -44,3 +44,15 @@
 9. [Multiscale object detection](9.multiscale-object-detection.ipynb)
     - **当使用较小的锚框检测较小的物体时，我们可以采样更多的区域，而对于较大的物体，我们可以采样较少的区域。**
     - **简言之，我们可以利用深层神经网络在多个层次上对图像进行分层表示，从而实现多尺度目标检测。**
+10. [SSD](10.ssd.ipynb)
+    - **SSD 在多个段的输出上进行多尺度的检测**
+    - L1 范数损失
+    - **平滑 L1 范数损失：当$\sigma$非常大时，这种损失类似于$L_1$范数损失。当它的值较小时，损失函数较平滑。**
+    - **焦点损失：增大$\gamma$可以有效地减少正类预测概率较大时（例如$p_j > 0.5$）的相对损失，因此训练可以更集中在那些错误分类的困难示例上。**
+11. [RCNN](11.rcnn.ipynb)
+    - RCNN, Fast RCNN, Faster RCNN, Mask RCNN
+12. [YOLO](12.YOLO.ipynb)
+13. [Semantic Segmentation and Dataset](13.semantic-segmentation-and-dataset.ipynb)
+14. [Transposed Conv](14.transposed-conv.ipynb)
+15. [Fcn](15.fcn.ipynb)
+16. [Neural Style](16.neural-style.ipynb)
