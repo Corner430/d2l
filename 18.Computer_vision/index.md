@@ -65,6 +65,9 @@
     - * Mask R-CNN在Faster R-CNN的基础上引入了一个全卷积网络，从而**借助目标的像素级位置进一步提升目标检测的精度。**
 12. [YOLO](12.YOLO.ipynb)
 13. [Semantic Segmentation and Dataset](13.semantic-segmentation-and-dataset.ipynb)
-14. [Transposed Conv](14.transposed-conv.ipynb)
+    - 语义分割、图像分割、实例分割
+    - Pascal VOC2012数据集
+    - **由于语义分割的输入图像和标签在像素上一一对应，输入图像会被随机裁剪为固定尺寸而不是缩放。**
+14.  [Transposed Conv](14.transposed-conv.ipynb)
 15. [Fcn](15.fcn.ipynb)
 16. [Neural Style](16.neural-style.ipynb)
