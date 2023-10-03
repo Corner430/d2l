@@ -68,6 +68,13 @@
     - 语义分割、图像分割、实例分割
     - Pascal VOC2012数据集
     - **由于语义分割的输入图像和标签在像素上一一对应，输入图像会被随机裁剪为固定尺寸而不是缩放。**
-14.  [Transposed Conv](14.transposed-conv.ipynb)
+    - 语义分割标注工具
+    - 三维的语义分割
+14. [Transposed Conv](14.transposed-conv.ipynb)
+    - **转置卷积其实是一种上采样技术**
+    - **恢复卷积前的图像尺寸，而不是恢复原始值。**
+    - **为什么称之为“转置”**
+    - 高级 API `nn.ConvTranspose2d`
+    - 转置卷积中的 步幅 和 填充
 15. [Fcn](15.fcn.ipynb)
 16. [Neural Style](16.neural-style.ipynb)
