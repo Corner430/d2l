@@ -76,5 +76,7 @@
     - **为什么称之为“转置”**
     - 高级 API `nn.ConvTranspose2d`
     - 转置卷积中的 步幅 和 填充
+    - **可以用矩阵乘法来实现卷积和转置卷积**
+    - **[转置卷积是一种卷积](https://www.bilibili.com/video/BV1CM4y1K7r7/?spm_id_from=autoNext&vd_source=2dd00fcea46a9c5a26706a99eb12ea3f)**
 15. [Fcn](15.fcn.ipynb)
 16. [Neural Style](16.neural-style.ipynb)
