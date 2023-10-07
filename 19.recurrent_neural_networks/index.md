@@ -18,8 +18,12 @@
     - **隐藏层和隐状态指的是两个截然不同的概念。**
     - **循环神经网络模型的参数数量不会随着时间步的增加而增加。**
     - **我们可以使用困惑度来评价语言模型的质量。**
-    - [梯度裁剪](https://www.bilibili.com/video/BV1D64y1z7CA/?share_source=copy_web&vd_source=a7ae9163cb2cd121bfd86ea1f4ecd2ef&t=929)
     - [更多的应用 RNNs](https://www.bilibili.com/video/BV1D64y1z7CA/?share_source=copy_web&vd_source=a7ae9163cb2cd121bfd86ea1f4ecd2ef&t=1142)
 5. [Rnn Scratch](5.rnn-scratch.ipynb)
-    - 预热
+    - **循环神经网络模型在训练以前需要初始化状态，不过随机抽样和顺序划分使用初始化方法不同。**
+    - **当使用顺序划分时，我们需要分离梯度以减少计算量。**
+    - **在进行任何预测之前，模型通过预热期进行自我更新（例如，获得比初始值更好的隐状态）。**
+    - **[梯度裁剪](https://www.bilibili.com/video/BV1D64y1z7CA/?share_source=copy_web&vd_source=a7ae9163cb2cd121bfd86ea1f4ecd2ef&t=929)可以防止梯度爆炸，但不能应对梯度消失。**
 6. [Rnn Concise](6.rnn-concise.ipynb)
+    - **高级API的循环神经网络层返回一个输出和一个更新后的隐状态，我们还需要计算整个模型的输出层。**
+    - **相比从零开始实现的循环神经网络，使用高级API实现可以加速训练。**
