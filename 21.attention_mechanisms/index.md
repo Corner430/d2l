@@ -1,6 +1,7 @@
 1. [Attention Cues](1.attention-cues.ipynb)
     - 注意力可视化，热图（heatmap）
 2. [Nadaraya waston](2.nadaraya-waston.ipynb)
+    - `torch.bmm()`函数实现了批量矩阵乘法
     - 注意力汇聚：Nadaraya-Watson 核回归
     - 平均汇聚
     - 非参数注意力汇聚
