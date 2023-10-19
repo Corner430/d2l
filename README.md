@@ -354,4 +354,7 @@
     - Transformer模型完全基于注意力机制，没有任何卷积层或循环神经网络层
     - 层规范化和批量规范化的目标相同，但层规范化是基于特征维度进行规范化。**层规范化更适用于自然语言处理**
 22. [Natural Language Processing Pretraining](22.natural-language-processing-pretraining/index.ipynb)
-    - word2vec: 跳元模型和连续词袋
+    - word2vec工具包含跳元模型和连续词袋模型。
+    - 跳元模型假设一个单词可用于在文本序列中，生成其周围的单词；而连续词袋模型假设基于上下文词来生成中心单词。
+23. [Natural Language Processing Applications](23.natural-language-processing-applications/index.ipynb)
+24. [Optimization](24.optimization/index.ipynb)
